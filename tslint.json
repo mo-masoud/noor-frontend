@@ -1,0 +1,13 @@
+{
+    "extends": ["tslint:recommended", "tslint-config-prettier"],
+    "rulesDirectory": ["tslint-plugin-prettier"],
+    "rules": {
+        "prettier": true,
+        "semicolon": [false, "always"],
+        "quotemark": [true, "single"],
+        "trailing-comma": [
+            true,
+            { "multiline": "always", "singleline": "never" }
+        ]
+    }
+}
